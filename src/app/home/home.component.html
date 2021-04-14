@@ -1,0 +1,18 @@
+<section class="homeSection">
+    <div class="content">
+        <div class="profile">
+            <img class="profileImage" src="{{ tempImage }}" alt="Esto es una imagen temporal">
+            <p class="text">Eduard Rincón</p>
+            <p class="text">camilo.rincon357@gmail.com</p>
+        </div>
+        <div class="linksRegistration">
+            <form class="form" action="">
+                <label class="label" for="urlInput"> Url to save</label>
+                <input class="input" id="urlInput" type="text" [formControl]="linkForm">
+
+                <label class="label" for="urlDescription">Url to save</label>
+                <input class="input" id="urlDescription" type="text" [formControl]="linkForm">
+            </form>
+        </div>
+    </div>
+</section>
